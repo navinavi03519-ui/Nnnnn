@@ -1,0 +1,18 @@
+[project]
+name = "asha-wp-publisher"
+version = "1.0.0"
+description = "Scrape any link and auto publish to WordPress"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.28.3",
+    "requests",
+    "beautifulsoup4",
+]
+
+[tool.flet]
+org = "com.asha"
+product = "Asha WP Publisher"
+company = "Asha"
+
+[tool.flet.app]
+path = "."
